@@ -1,31 +1,32 @@
-# Portifólio
+# Portfólio
 
-Lading Page desenvolvida para organização de projetos.
+Landing page desenvolvida para centralizar e apresentar meus projetos de desenvolvimento Front-end de forma profissional e organizada.
 
 ## 🔗 Links Oficiais
 
-- **Site:** [https://link-do-seu-site.com](https://link-do-seu-site.com)
-- **Repositório:** [https://github.com/seu-usuario/seu-repo](https://github.com/seu-usuario/seu-repo)
+- **Site em Produção:** [https://portifolio-six-nu-65.vercel.app/](https://portifolio-six-nu-65.vercel.app/)
+- **Repositório:** [https://github.com/YagoraDev/portifolio](https://github.com/YagoraDev/portifolio)
 
 ---
 
 ## 💻 Sobre o Projeto
 
-Projeto desenvolvido no intuito de organizar os meus projetos desenvolvidos para ficarem em um unico lugar.
+Este projeto foi criado com o objetivo de reunir todos os meus projetos desenvolvidos em um único lugar, servindo como a minha vitrine profissional (portfólio) para recrutadores e clientes. O site foi construído do zero, com foco em entregar uma experiência de usuário limpa, moderna e de rápido carregamento.
 
 **Principais Características:**
-- **Responsividade:** Layout adaptável para celulares, tablets e desktops (Mobile First).
-- **Acessibilidade:** Uso de tags semânticas e atributos ARIA (se houver).
-- **Performance:** Código limpo e sem dependências pesadas.
+- **Design Responsivo:** Layout totalmente adaptável para celulares, tablets e desktops (Mobile First).
+- **Experiência do Usuário (UX):** Navegação fluida, com rolagem suave ao clicar no menu e animações de entrada nos cards de projetos.
+- **Acessibilidade:** Uso de tags semânticas no HTML para garantir melhor leitura por navegadores e mecanismos de busca (SEO).
+- **Performance:** Código leve, construído sem dependências ou frameworks pesados.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5:** Estrutura semântica.
-- **CSS3:** Estilização, Flexbox/Grid e animações.
-- **JavaScript:** [Se houver. Ex: Lógica do jogo / Manipulação de DOM. Se for só HTML/CSS, apague esta linha].
-- **Hospedagem:** Vercel / GitHub Pages.
+- **HTML5:** Estruturação semântica de todas as seções.
+- **CSS3:** Estilização avançada, uso de Flexbox, CSS Grid, variáveis para temas e animações (Keyframes).
+- **JavaScript (Vanilla):** Manipulação de DOM para o menu mobile (hambúrguer) e uso da API *IntersectionObserver* para animar os projetos ao rolar a página.
+- **Hospedagem:** Deploy automatizado via Vercel.
 
 ---
 
@@ -33,7 +34,8 @@ Projeto desenvolvido no intuito de organizar os meus projetos desenvolvidos para
 
 ```text
 /
-├── css/                  # Arquivos de estilo
-├── js/                   # Arquivos de script
-├── img/                  # Imagens e ícones do projeto
-└── index.html            # Página principal
+├── css/                  # Arquivos de estilo (style.css)
+├── js/                   # Arquivos de script (script.js)
+├── img/                  # Imagens, prints dos projetos e ícones
+├── index.html            # Página principal do portfólio
+└── README.md             # Documentação do projeto
